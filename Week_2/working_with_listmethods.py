@@ -1,3 +1,10 @@
+#Add an element using 
+fruits = ["apple", "banana"]
+fruits.append("cherry")
+print(fruits)
+
+# 
+
 # Counting the number of values using the .count function
 fruits =["apple","banana","Cherry", "banana" ]
 print(fruits.count("banana"))
