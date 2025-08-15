@@ -1,8 +1,12 @@
-# storing 1 to 50 seat number in a set using range
-seats = set(range(1,51))
-# asking the user to book a seat ny entering a number using inp
-user_seat =int(input("Dear user, Kindly book a seat by entering your preferred seat number: "))
-# store the input in a set
-user_seat_set = {user_seat}
-# remove booked seats and print the remainging
-print(seats.difference(user_seat))
+
+# Store seat numbers (1 to 50) in a set
+seat_numbers = set(range(1, 51))
+
+# Ask user to book a seat from 1 - 50
+book_seat = int(input("Book a seat from 1 to 50: "))
+
+# Remove booked seats from the set
+seat_numbers.remove(book_seat)
+
+# Show remaining seats after booking
+print(seat_numbers)
