@@ -13,5 +13,8 @@ biodata["courses"]=  (input("Enter your course1: "),
 # converting courses into list
 course_list=list(biodata["courses"])
 #   - Use `print()` formatting with `\n` and `\t` for better output.
-print("\n----------User Biodata---------")
-print("\biodata")
+print("\n----------Student Biodata---------")
+print(f"\nName: \t{biodata["name"]}")
+print(f"\nAge: \t{biodata["age"]}")
+print(f"\nGender: {biodata["gender"]}")
+print(f"\nCourses: {biodata["courses"]}")
