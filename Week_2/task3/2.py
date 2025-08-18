@@ -16,21 +16,21 @@ print(''.join(name_list))
 # print(name.rstrip())
 
 # # # 9
-# text = input("Enter a sentence:   ").lower()
-# text_list =list(text)
-# vowels = ("aeiou")
-# vowel = list(vowels)
-# vlist = vowel.count(text_list)    
-# print(vlist)
+# askingthe user to enter an nput
+text = input("Enter a sentence:   ").lower()
+vowels = ("aeiou")
+vowel_count= sum(map(text.count, vowels))
+print("Number of Vowels:",vowel_count)
 
 
 # # # 9
 # # Asking the user for a sentence and print each word in a new line
 # sports = input("Dear user, what is your favorite sports: ")
-# sport_sentence =list(sports)
+# output = "\n".join(sports.split())
+# print(output)
 
-# 10
-# Converting a string to an integer using int
-number="1234"
-numbers= int(number)
-print(numbers*2)
+# # 10
+# # Converting a string to an integer using int
+# number="1234"
+# numbers= int(number)
+# print(numbers*2)
