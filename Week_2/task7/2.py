@@ -35,6 +35,8 @@ print("\n---Initial item list---")
 print(items)
 print(items.keys())
 
+
+
 # # allowing the user to update price list
 
 choice = input("\nDo you want to update a price? (yes or no): ")
